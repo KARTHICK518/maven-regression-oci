@@ -18,8 +18,3 @@ steps:
     command: |
       echo "Running tests..."
       mvn test
-
-outputArtifacts:
-  - name: app
-    type: BINARY
-    location: target/
